@@ -1,0 +1,20 @@
+﻿node app.js read --title="Sell"
+
+node app.js add --title="Sell" --body="Clothings"
+node app.js add --title="t" --body="b"
+node app.js add --title="Sell" --body="Old books"
+
+node app.js list
+
+node app.js remove --title="Sell"
+
+
+デバッガ―の起動
+
+node inspect app.js add --title="Dust" --body="Take dust bin"
+
+chrome://inspect/#devices
+
+MSDOSのコマンドウェインドウでrestartとタイプすることでクロム内でターゲットが表示される。
+inspectをクリックするとデバッガが別ウィンドウで出現する。
+
